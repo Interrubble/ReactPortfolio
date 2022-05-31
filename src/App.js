@@ -2,11 +2,10 @@ import React from "react";
 import './App.css';
 import './components/NavTabs';
 import Home from './components/pages/Home'
-import Dashboard from './components/pages/Dashboard';
-import Fitness from './components/pages/Fitness';
-import Sleep from './components/pages/Sleep';
-import Hydration from './components/pages/Hydration';
-import Mindfulness from './components/pages/Mindfulness';
+import Resume from './components/pages/Resume';
+import MyWork from './components/pages/MyWork';
+import AboutMe from './components/pages/AboutMe';
+import ContactMe from './components/pages/ContactMe';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 
 function App() {
@@ -14,14 +13,12 @@ function App() {
     <BrowserRouter>
         <Routes>
             <Route path='/' element={<Home/>}/>
-            <Route path='/dashboard' element={<Dashboard/>}/>
-            <Route path='/fitness' element={<Fitness/>}/>
-            <Route path='/sleep' element={<Sleep/>}/>
-            <Route path='/hydration' element={<Hydration/>}/>
-            <Route path='/mindfulness' element={<Mindfulness/>}/>
+            <Route path='/resume' element={<Resume/>}/>
+            <Route path='/myWork' element={<MyWork/>}/>
+            <Route path='/aboutMe' element={<AboutMe/>}/>
+            <Route path='/contactMe' element={<ContactMe/>}/>
         </Routes>
         </BrowserRouter>
-    // <h1>Hello</h1>
   );
 }
 
