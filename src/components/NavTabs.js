@@ -6,6 +6,7 @@ const styles = {
         border: '2px solid black',
         width: '100vw',
         padding: 'auto',
+        backgroundColor: 'lightblue',
     }
 }
 
