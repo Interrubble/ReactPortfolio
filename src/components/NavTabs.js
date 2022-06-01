@@ -5,8 +5,11 @@ const styles = {
     navStyle: {
         border: '2px solid black',
         width: '100vw',
-        padding: 'auto',
+        padding: '10px',
         backgroundColor: 'lightblue',
+    },
+    listSize: {
+        fontSize: '22px'
     }
 }
 
@@ -16,19 +19,19 @@ function NavTabs({ currentPage, handlePageChange }) {
         <nav style={styles.navStyle}>
             <ul className="nav nav-tabs" >
                 <li className="nav-item">
-                    <Link to='/'>Home</Link>
+                    <Link to='/' style={styles.listSize}>Home</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to='/aboutMe'>About Me</Link>
+                    <Link to='/aboutMe' style={styles.listSize}>About Me</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to='/resume'>Resume</Link>
+                    <Link to='/resume' style={styles.listSize}>Resume</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to='/myWork'>My Work</Link>
+                    <Link to='/myWork' style={styles.listSize}>My Work</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to='/contactMe'>Contact Me</Link>
+                    <Link to='/contactMe' style={styles.listSize}>Contact Me</Link>
                 </li>
             </ul>
         </nav>
