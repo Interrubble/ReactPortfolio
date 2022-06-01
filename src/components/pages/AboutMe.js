@@ -18,7 +18,7 @@ export default function AboutMe() {
     return (
         <div style={styles.format}>
             <header>
-                <h1>About Me Page</h1>
+                <h1>About Me</h1>
                 {NavTabs({})}
             </header>
             <h3 style={styles.about}>

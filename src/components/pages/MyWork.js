@@ -20,10 +20,10 @@ const styles = {
 export default function MyWork() {
     return (
         <div>
-            <nav>
+            <header>
                 <h1 style={styles.format}>My Work</h1>
                 {NavTabs({})}
-            </nav>
+            </header>
             <ul style={styles.format}>
                 <img style={styles.imgSize} src={projectOne} alt="collab one" />
                 <a href="https://hseymo.github.io/Activity-Generator" rel="noreferrer" target="_blank">
