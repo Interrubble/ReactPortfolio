@@ -4,21 +4,28 @@ import NavTabs from '../NavTabs';
 const styles = {
     format: {
         margin: '0px',
-        padding: '20px 0px',
+        padding: '20px',
         backgroundColor: 'lightgray',
-        width: '100vw'
     },
     about: {
         fontSize: "22px",
-        padding: "30px"
+        padding: "20px",
+        margin: '0px',
+        display: 'flex',
+        justifyContent: 'center',
     },
+    div: {
+        backgroundColor: 'lightgray',
+        margin: '0px',
+        padding: '0px',
+    }
 }
 
 export default function AboutMe() {
     return (
-        <div style={styles.format}>
+        <div style={styles.div}>
             <header>
-                <h1>About Me</h1>
+                <h1 style={styles.format}>About Me</h1>
                 {NavTabs({})}
             </header>
             <h3 style={styles.about}>

@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const styles = {
     navStyle: {
         border: '2px solid black',
-        width: '100vw',
         padding: '10px',
         backgroundColor: 'lightblue',
+        margin: '0px',
     },
     listSize: {
         fontSize: '22px'

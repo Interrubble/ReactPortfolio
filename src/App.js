@@ -7,9 +7,15 @@ import AboutMe from './components/pages/AboutMe';
 import ContactMe from './components/pages/ContactMe';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 
+const styles = {
+  padding: '0px',
+  margin: '0px',
+  maxWidth: '90vmax'
+}
+
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter style={styles}>
         <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/resume' element={<Resume/>}/>

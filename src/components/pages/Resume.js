@@ -1,22 +1,25 @@
 import React from 'react';
 import NavTabs from '../NavTabs';
+import {Link} from 'react-router-dom';
 
 const styles = {
     format: {
         margin: '0px',
-        padding: '20px 0px',
+        padding: '20px',        
+    },
+    div: {
         backgroundColor: 'lightgray',
-        width: '100vw', 
     }
 }
 
 export default function Resume() {
     return (
-        <div style={styles.format}>
+        <div style={styles.div}>
             <header>
-                <h1>Resume Page</h1>
+                <h1 style={styles.format}>Resume Page</h1>
                 {NavTabs({})}
             </header>
+            <h2>Click <Link to='/files/Resume2022.docx' target="_blank" download>Here</Link> to download a copy of my resume!</h2>
             <section>
                 <card><span style={{ fontWeight: 'bolder', fontStyle: 'italic', fontSize: '18px' }}>SOFTWARE TRAINING</span>
                     <section>
