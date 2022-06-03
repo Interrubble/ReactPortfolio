@@ -6,11 +6,13 @@ import MyWork from './components/pages/MyWork';
 import AboutMe from './components/pages/AboutMe';
 import ContactMe from './components/pages/ContactMe';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import './App.css';
 
 const styles = {
   padding: '0px',
   margin: '0px',
-  maxWidth: '90vmax'
+  maxWidth: '90vmax',
+  backgroundColor: 'radial-gradient(purple, green)'
 }
 
 function App() {

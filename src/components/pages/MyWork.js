@@ -8,12 +8,13 @@ import workDay from '../../assets/WorkdayPlanner.png';
 const styles = {
     format: {
         margin: '0px',
-        padding: '20px',
+        padding: '10px',
         backgroundColor: 'lightgray',
     },
     imgSize: {
         maxWidth: '90vmax',
-        padding: '25px 0px'
+        padding: '25px 0px',
+        display: 'fluid',
     }
 }
 

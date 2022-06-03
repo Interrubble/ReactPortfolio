@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const styles = {
     navStyle: {
         border: '2px solid black',
-        padding: '10px',
+        padding: '0px',
         backgroundColor: 'lightblue',
         margin: '0px',
     },
