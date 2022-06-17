@@ -5,7 +5,7 @@ const styles = {
     navStyle: {
         border: '2px solid black',
         padding: '0px',
-        backgroundColor: 'lightblue',
+        backgroundColor: 'transparent',
         margin: '0px',
     },
     listSize: {

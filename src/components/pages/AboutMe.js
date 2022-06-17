@@ -5,7 +5,7 @@ const styles = {
     format: {
         margin: '0px',
         padding: '20px',
-        backgroundColor: 'lightgray',
+        backgroundColor: 'transparent',
     },
     about: {
         fontSize: "22px",
@@ -15,7 +15,7 @@ const styles = {
         justifyContent: 'center',
     },
     div: {
-        backgroundColor: 'lightgray',
+        backgroundColor: 'transparent',
         margin: '0px',
         padding: '0px',
     }

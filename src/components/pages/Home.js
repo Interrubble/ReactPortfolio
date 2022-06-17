@@ -5,11 +5,12 @@ const styles = {
     format: {
         margin: '0px',
         padding: '20px 0px',
-        background: 'linear-gradient(blue, red)',
+        background: 'transparent',
     },
     header: {
         padding: '0px 0px 25px 40px',
-        margin: 'center'
+        margin: 'center',
+        background: 'transparent',
     }
 }
 

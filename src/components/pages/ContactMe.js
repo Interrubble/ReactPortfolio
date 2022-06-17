@@ -8,14 +8,14 @@ const styles = {
     },
     contact: {
         fontSize: "22px",
-        padding: "30px",
+        padding: "20px",
     },
     card: {
-        backgroundColor: 'lightgray',
+        backgroundColor: 'transparent',
         fontSize: '20px',
     },
     div: {
-        backgroundColor: 'lightgray',
+        backgroundColor: 'transparent',
     }
 }
 

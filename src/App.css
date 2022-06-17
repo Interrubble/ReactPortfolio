@@ -1,3 +1,28 @@
 html {
-    background-color: purple;
+    height: 100%;
+    background: linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet, red);
+}
+
+ul {
+    list-style-type: none;
+}
+
+span {
+    width: fit-content;
+}
+
+span:hover {
+    background-color: white;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: skyblue
 }
