@@ -1,5 +1,5 @@
 import React from "react";
-import { SocialIcon } from "react-social-icons";
+import {SocialMediaIconsReact} from 'social-media-icons-react';
 import './components/NavTabs';
 import Home from './components/pages/Home'
 import Resume from './components/pages/Resume';
@@ -26,8 +26,8 @@ function App() {
         <Route path='/contactMe' element={<ContactMe />} />
       </Routes>
       <footer>
-        <SocialIcon url="https://github.com/Interrubble" />
-        <SocialIcon url="https://www.linkedin.com/in/christopher-delagarza-309550234" />
+        <SocialMediaIconsReact borderColor="transparent" icon="github" iconColor="black" backgroundColor="transparent" url="https://github.com/Interrubble" size="48" />
+        <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" icon="linkedin" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(26,166,233,1)" url="https://www.linkedin.com/in/christopher-delagarza-309550234" size="48" />
       </footer>
     </BrowserRouter>
   );
