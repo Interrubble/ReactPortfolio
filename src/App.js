@@ -1,5 +1,5 @@
 import React from "react";
-import {SocialMediaIconsReact} from 'social-media-icons-react';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import './components/NavTabs';
 import Home from './components/pages/Home'
 import Resume from './components/pages/Resume';
@@ -26,8 +26,10 @@ function App() {
         <Route path='/contactMe' element={<ContactMe />} />
       </Routes>
       <footer>
-        <SocialMediaIconsReact borderColor="transparent" icon="github" iconColor="black" backgroundColor="transparent" url="https://github.com/Interrubble" size="48" />
-        <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" icon="linkedin" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(26,166,233,1)" url="https://www.linkedin.com/in/christopher-delagarza-309550234" size="48" />
+        {/* <SocialMediaIconsReact borderColor="transparent" icon="github" iconColor="black" backgroundColor="transparent" url="https://github.com/Interrubble" size="48" />
+        <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" icon="linkedin" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(26,166,233,1)" url="https://www.linkedin.com/in/christopher-delagarza-309550234" size="48" /> */}
+        <a href="https://github.com/Interrubble"><FaGithub/></a>
+        <a href="https://www.linkedin.com/in/christopher-delagarza-309550234"><FaLinkedin/></a>
       </footer>
     </BrowserRouter>
   );

@@ -35,7 +35,7 @@ export default function MyWork() {
                 <span style={{fontWeight: 'bold', fontSize: '20px', display: 'flex'}}>Click me to see a collaboration project to find local food locations for consideration when deciding to eat out!</span>
                 </a>
                 <img style={styles.imgSize} src={noteTaker} alt="note taker" />
-                <a href="https://interrubble.github.io/NoteTaker/" rel="noreferrer" target="_blank">
+                <a href="https://limitless-earth-75809.herokuapp.com/notes" rel="noreferrer" target="_blank">
                 <span style={{fontWeight: 'bold', fontSize: '20px', display: 'flex'}}>Click me to see a simple app to keep track of notes, with add/delete functionality, and utilizing local storage!</span>
                 </a>
                 <img style={styles.imgSize} src={workDay} alt="workday planner" />
