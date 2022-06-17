@@ -8,7 +8,7 @@ const styles = {
         padding: '20px',        
     },
     div: {
-        backgroundColor: 'lightgray',
+        backgroundColor: 'transparent',
     }
 }
 
